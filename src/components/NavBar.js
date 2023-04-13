@@ -8,7 +8,7 @@ const NavBar = () => {
             <Link to="">Projects</Link>
             <Link to="">Work Experience</Link>
             <Link to="">About Me</Link>
-            <Link to="">Resume</Link>
+            <Link to="src/assets/Matthew Bradshaw - Resume (School).pdf" download>Resume</Link>
             <Link to={{ pathname: "https://github.com/MWBradshaw"}}>Github</Link>
         </div>
     );

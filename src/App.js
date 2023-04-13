@@ -1,10 +1,10 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import NavBar from "src/components/NavBar.js";
-import Home from "src/pages/Home.js";
-import AboutMe from "src/pages/AboutMe.js";
-import Projects from "src/pages/Projects.js";
-import WorkExperience from "src/pages/WorkExperience.js";
+import NavBar from "./components/NavBar.js";
+import Home from "./pages/Home.js";
+import AboutMe from "./pages/AboutMe.js";
+import Projects from "./pages/Projects.js";
+import WorkExperience from "./pages/WorkExperience.js";
 
 function App() {
   return (
