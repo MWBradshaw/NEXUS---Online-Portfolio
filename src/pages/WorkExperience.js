@@ -2,7 +2,9 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 const WorkExperience = () => {
     return (
-        <div></div>
+        <div>
+            <h2>Work Experience</h2>
+        </div>
     );
 }
 
