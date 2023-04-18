@@ -1,4 +1,4 @@
-import 'bootstrap/dist/css/bootstrap.css';
+import styles from './NavBar.module.css';
 import { Link } from 'react-router-dom';
 
 

@@ -1,5 +1,5 @@
-import 'bootstrap/dist/css/bootstrap.css';
-
+import styles from './AboutMe.module.css'
+;
 const AboutMe = () => {
     return (
         <div>

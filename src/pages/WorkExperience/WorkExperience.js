@@ -1,4 +1,4 @@
-import 'bootstrap/dist/css/bootstrap.css';
+import styles from '../Projects/Projects.module.css';
 
 const WorkExperience = () => {
     return (
