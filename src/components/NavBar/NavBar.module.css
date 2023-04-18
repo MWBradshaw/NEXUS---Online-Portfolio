@@ -1,6 +1,15 @@
 /* General Styling */
-.navbody {
+.navBody {
     display:flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0px 25px;
+}
+
+.navBrand {
+    text-decoration: none;
+}
+
+.navItem + .navItem {
+    margin-left: 50px;
 }
