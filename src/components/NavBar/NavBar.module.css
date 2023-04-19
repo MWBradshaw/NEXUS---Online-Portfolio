@@ -10,6 +10,11 @@
     text-decoration: none;
 }
 
+.navItem {
+    text-decoration: none;
+}
+
 .navItem + .navItem {
     margin-left: 50px;
 }
+
