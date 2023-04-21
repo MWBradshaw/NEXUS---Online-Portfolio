@@ -2,6 +2,7 @@ import './App.css';
 import { useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from "./components/NavBar/NavBar.js";
+import Footer from "./components/Footer/Footer";
 import Home from "./pages/Home/Home.js";
 import AboutMe from "./pages/AboutMe/AboutMe.js";
 import Projects from "./pages/Projects/Projects.js";
@@ -24,6 +25,7 @@ function App() {
               <Route path="projects" element={<Projects />} />
               <Route path="workexperience" element={<WorkExperience />} />
             </Routes>
+            <Footer />
         </BrowserRouter>
     </div>
   );
