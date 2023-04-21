@@ -1,6 +1,7 @@
 const Footer = () => {
     return(
         <div>
+            <p>Contact</p>
             <p>&copy; Matthew Bradshaw</p>
         </div>
     )
