@@ -1,3 +1,11 @@
+import styles from './Home.module.css';
+
 const Home = () => {
-    return ()
+    return (
+        <div>
+            
+        </div>
+    )
 }
+
+export default Home;

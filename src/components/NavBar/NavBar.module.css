@@ -1,0 +1,23 @@
+/* General Styling */
+.navBody {
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 25px;
+}
+
+.navBrand {
+    text-decoration: none;
+    color: black;
+}
+
+.navItem {
+    text-decoration: none;
+    color: black;
+}
+
+.navItem + .navItem {
+    margin-left: 50px;
+}
+
