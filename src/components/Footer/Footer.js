@@ -3,8 +3,8 @@ import styles from "./Footer.module.css";
 const Footer = () => {
     return(
         <div>
-            <p>Contact</p>
-            <p>&copy; Matthew Bradshaw</p>
+            <p>matthewbradshaw875@gmail.com</p>
+            <p>&copy; 2023 Matthew Bradshaw</p>
         </div>
     )
 }
