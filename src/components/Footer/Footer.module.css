@@ -1,4 +1,9 @@
 /* General Styling */
-.footer-body {
-    
+.footerBody {
+    background: #040F0F;
+    padding: 15px 0px;
+}
+
+.footerBody p {
+    color: white;     
 }
