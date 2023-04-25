@@ -1,1 +1,22 @@
 /* General Styling */
+.card {
+    width: 220px;
+    height: 100px;
+    background: #092020;
+}
+
+.card:hover .cardContent {
+    transform: rotate(90deg);
+}
+
+.cardContent {
+    position: relative;
+}
+
+.cardFront, .cardBack {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}

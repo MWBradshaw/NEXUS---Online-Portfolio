@@ -15,7 +15,7 @@ const NavBar = () => {
                 <Link className={styles.navItem} to="about">About Me</Link>
                 <Link className={styles.navItem} to="src/assets/Matthew Bradshaw - Resume (School).pdf" target="_blank" download>Resume</Link>
                 <Link className={styles.navItem} to={{ pathname:"https://github.com/MWBradshaw"}} target="_blank">Github</Link>
-                <Link className={styles.navItem} to="contact" target="_blank">Contact</Link>
+                <Link className={styles.navItem} to="contact">Contact</Link>
             </div>
         </div>
     );
