@@ -2,15 +2,21 @@
 .card {
     width: 220px;
     height: 100px;
-    background: #092020;
 }
 
-.card:hover .cardContent {
-    transform: rotate(90deg);
+.card + .card {
+    margin-left: 100px;
 }
 
 .cardContent {
     position: relative;
+    background-color: #092020;
+    transition: transform 3s;
+    transform-style: preserve-3d;
+}
+
+.card:hover .cardContent {
+    transform: rotateY(.5turn);
 }
 
 .cardFront, .cardBack {
@@ -19,4 +25,17 @@
     bottom: 0;
     left: 0;
     right: 0;
+    backface-visibility: hidden;
+}
+
+.cardFront {
+    
+}
+
+.cardBack {
+    transform: rotateY(.5turn);
+}
+
+.cardTitle {
+    transform: translateZ(100px);
 }

@@ -7,7 +7,7 @@ const Projects = () => {
             <div className={styles.card}>
                 <div className={styles.cardContent}>
                     <div className={styles.cardFront}>
-                        <p>Blockchain Prototype</p>
+                        <p className={styles.cardTitle}>Blockchain Prototype</p>
 
                         <div>
                             <p>JavaScript</p>
@@ -15,7 +15,7 @@ const Projects = () => {
                     </div>
 
                     <div className={styles.cardBack}>
-
+                        <p>snjkefnwsek</p>
                     </div>
                 </div>
             </div>
@@ -23,7 +23,7 @@ const Projects = () => {
             <div className={styles.card}>
                 <div className={styles.cardContent}>
                     <div className={styles.cardFront}>
-                        <p>Pomodoro Application</p>
+                        <p className={styles.cardTitle}>Pomodoro Application</p>
 
 
                         <div>
@@ -42,7 +42,7 @@ const Projects = () => {
             <div className={styles.card}>
                 <div className={styles.cardContent}>
                     <div className={styles.cardFront}>
-                        <p>NEXUS (Front-End)</p>
+                        <p className={styles.cardTitle}>NEXUS (Front-End)</p>
 
                         <div>
                             <p>JavaScript</p>
@@ -63,7 +63,7 @@ const Projects = () => {
                 <div className={styles.cardContent}>
 
                     <div className={styles.cardFront}>
-                        <p>AI Chatbot</p>
+                        <p className={styles.cardTitle}>AI Chatbot</p>
                         <p>Python</p>
                     </div>
                     
