@@ -15,7 +15,7 @@ const Projects = () => {
                     </div>
 
                     <div className={styles.cardBack}>
-                        <p>snjkefnwsek</p>
+                        
                     </div>
                 </div>
             </div>
