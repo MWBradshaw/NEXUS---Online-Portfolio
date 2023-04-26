@@ -1,4 +1,8 @@
 /* General Styling */
+/* p {
+    color: white;
+} */
+
 .cardDisplay {
     height: 200px;
     display: flex;
@@ -9,7 +13,7 @@
 
 .card {
     width: 220px;
-    height: 100px;
+    height: 270px;
 }
 
 .cardContent {
@@ -33,7 +37,7 @@
 }
 
 .cardFront {
-    
+  
 }
 
 .cardBack {

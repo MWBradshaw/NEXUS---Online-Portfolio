@@ -56,8 +56,6 @@ const Projects = () => {
 
                         </div>
                     </div>
-
-                    
                 </div>
 
                 <div className={styles.card}>
