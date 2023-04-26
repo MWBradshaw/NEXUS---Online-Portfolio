@@ -8,15 +8,21 @@ const Projects = () => {
                 <div className={styles.card}>
                     <div className={styles.cardContent}>
                         <div className={styles.cardFront}>
-                            <p className={styles.cardTitle}>Blockchain Prototype</p>
-
+                            <div className={styles.cardFrontTitle}>
+                                <p>Blockchain Prototype</p>
+                            </div>
                             <div className={styles.cardBody}>
-                                <p>JavaScript</p>
+                                
                             </div>
                         </div>
 
                         <div className={styles.cardBack}>
-                            
+                            <div class={styles.cardBackBody}>
+                                <div className={styles.cardBackTitle}>
+                                    <p>Technologies Used:</p>
+                                </div>
+                                <p>JavaScript</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -24,37 +30,54 @@ const Projects = () => {
                 <div className={styles.card}>
                     <div className={styles.cardContent}>
                         <div className={styles.cardFront}>
-                            <p className={styles.cardTitle}>Pomodoro Application</p>
+                            <div className={styles.cardFrontTitle}>
+                                <p>Pomodoro Application</p>
+                            </div>
 
 
                             <div className={styles.cardBody}>
+                               
+                            </div>
+                        </div>
+
+                        <div className={styles.cardBack}>
+                            <div class={styles.cardBackBody}>
+                                <div className={styles.cardBackTitle}>
+                                    <p>Technologies Used:</p>
+                                </div>
+
                                 <p>TypeScript</p>
                                 <p>HTML</p>
                                 <p>CSS</p>
                             </div>
                         </div>
-
-                        <div className={styles.cardBack}>
-
-                        </div>
                     </div>
                 </div>
 
                 <div className={styles.card}>
                     <div className={styles.cardContent}>
                         <div className={styles.cardFront}>
-                            <p className={styles.cardTitle}>NEXUS (Front-End)</p>
+                            <div className={styles.cardFrontTitle}>
+                                <p>NEXUS (Front-End)</p>
+                            </div>
+                            
 
                             <div className={styles.cardBody}>
+                                
+                            </div>
+                        </div>
+
+                        <div className={styles.cardBack}>
+                            <div class={styles.cardBackBody}>
+                                <div className={styles.cardBackTitle}>
+                                    <p>Technologies Used:</p>
+                                </div>
+
                                 <p>JavaScript</p>
                                 <p>HTML</p>
                                 <p>CSS</p>
                             </div>
                         </div>
-
-                        <div className={styles.cardBack}>
-
-                        </div>
                     </div>
                 </div>
 
@@ -62,15 +85,22 @@ const Projects = () => {
                     <div className={styles.cardContent}>
 
                         <div className={styles.cardFront}>
-                            <p className={styles.cardTitle}>AI Chatbot</p>
+                            <div className={styles.cardFrontTitle}>
+                                <p>AI Chatbot</p>
+                            </div>
 
                             <div className={styles.cardBody}>
-                                <p>Python</p>
+                                
                             </div>
                         </div>
                         
                         <div className={styles.cardBack}>
-                            
+                            <div className={styles.cardBackTitle}>
+                                <p>Technologies Used:</p>
+                            </div>
+                            <div class={styles.cardBackBody}>
+                                <p>Python</p>  
+                            </div>
                         </div>
                     </div>
                 </div>

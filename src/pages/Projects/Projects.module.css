@@ -44,7 +44,11 @@
     transform: rotateY(.5turn);
 }
 
-.cardTitle {
+.cardFrontTitle {
+    transform: translateZ(6rem);
+}
+
+.cardBackTitle {
     transform: translateZ(6rem);
 }
 
