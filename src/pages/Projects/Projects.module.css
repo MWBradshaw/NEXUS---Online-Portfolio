@@ -1,16 +1,19 @@
 /* General Styling */
+.cardDisplay {
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
 .card {
     width: 220px;
     height: 100px;
 }
 
-.card + .card {
-    margin-left: 100px;
-}
-
 .cardContent {
     position: relative;
-    background-color: #092020;
     transition: transform 3s;
     transform-style: preserve-3d;
 }
@@ -26,6 +29,7 @@
     left: 0;
     right: 0;
     backface-visibility: hidden;
+    transform-style: preserve-3d;
 }
 
 .cardFront {
@@ -37,5 +41,9 @@
 }
 
 .cardTitle {
-    transform: translateZ(100px);
+    transform: translateZ(6rem);
+}
+
+.cardBody {
+    transform: translateZ(5rem);
 }
