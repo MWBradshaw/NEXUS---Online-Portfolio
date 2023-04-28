@@ -11,16 +11,16 @@ const Projects = () => {
                             <div className={styles.cardFrontTitle}>
                                 <p>Blockchain Prototype</p>
                             </div>
-                            <div className={styles.cardBody}>
+                            <div className={styles.cardFrontBody}>
                                 
                             </div>
                         </div>
 
                         <div className={styles.cardBack}>
-                            <div class={styles.cardBackBody}>
-                                <div className={styles.cardBackTitle}>
+                            <div className={styles.cardBackTitle}>
                                     <p>Technologies Used:</p>
-                                </div>
+                            </div>
+                            <div class={styles.cardBackBody}>
                                 <p>JavaScript</p>
                             </div>
                         </div>
@@ -35,17 +35,16 @@ const Projects = () => {
                             </div>
 
 
-                            <div className={styles.cardBody}>
-                               
+                            <div className={styles.cardFrontBody}>
+                               <p>First iteration of my personal website that was built with HTML5, CSS, Bootstrap 5 and JavaScript</p>
                             </div>
                         </div>
 
                         <div className={styles.cardBack}>
-                            <div class={styles.cardBackBody}>
-                                <div className={styles.cardBackTitle}>
+                            <div className={styles.cardBackTitle}>
                                     <p>Technologies Used:</p>
-                                </div>
-
+                            </div>
+                            <div class={styles.cardBackBody}>
                                 <p>TypeScript</p>
                                 <p>HTML</p>
                                 <p>CSS</p>
@@ -62,17 +61,16 @@ const Projects = () => {
                             </div>
                             
 
-                            <div className={styles.cardBody}>
+                            <div className={styles.cardFrontBody}>
                                 
                             </div>
                         </div>
 
                         <div className={styles.cardBack}>
-                            <div class={styles.cardBackBody}>
-                                <div className={styles.cardBackTitle}>
+                            <div className={styles.cardBackTitle}>
                                     <p>Technologies Used:</p>
-                                </div>
-
+                            </div>
+                            <div class={styles.cardBackBody}>
                                 <p>JavaScript</p>
                                 <p>HTML</p>
                                 <p>CSS</p>
@@ -89,7 +87,7 @@ const Projects = () => {
                                 <p>AI Chatbot</p>
                             </div>
 
-                            <div className={styles.cardBody}>
+                            <div className={styles.cardFrontBody}>
                                 
                             </div>
                         </div>

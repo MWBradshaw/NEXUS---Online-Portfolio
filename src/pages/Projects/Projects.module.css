@@ -37,7 +37,7 @@
 }
 
 .cardFront {
-  
+    background-color: #0C2B2B;
 }
 
 .cardBack {
@@ -52,6 +52,6 @@
     transform: translateZ(6rem);
 }
 
-.cardBody {
+.cardFrontBody, .cardBackBody {
     transform: translateZ(5rem);
 }
