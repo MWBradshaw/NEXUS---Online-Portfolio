@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+
 /* General Styling */
-/* p {
-    color: white;
-} */
+p {
+    font-family: 'Bruno Ace', cursive;
+} 
 
 :root {
     --level-one: translateZ(4rem);
@@ -54,15 +56,11 @@
     transform: rotateY(.5turn);
 }
 
-.cardFrontTitle {
+.cardFrontTitle, .cardBackTitle {
     transform: var(--level-two);
     color: var(--card-text-color);
 }
 
-.cardBackTitle {
-    transform: var(--level-two);
-    color: var(--card-text-color);
-}
 
 .cardFrontBody, .cardBackBody {
     transform: var(--level-one);
