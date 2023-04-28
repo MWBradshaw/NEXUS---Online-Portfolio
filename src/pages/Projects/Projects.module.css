@@ -3,8 +3,15 @@
     color: white;
 } */
 
+:root {
+    --level-one: translateZ(4rem);
+    --level-two: translateZ(6rem);
+
+    --card-text-color: white;
+}
+
 .cardDisplay {
-    height: 200px;
+    height: 300px;
     display: flex;
     justify-content: space-evenly;
     padding-top: 20px;
@@ -17,6 +24,9 @@
 }
 
 .cardContent {
+    width: 100%;
+    height: 100%;
+    background: #0C2B2B;
     position: relative;
     transition: transform 3s;
     transform-style: preserve-3d;
@@ -45,13 +55,19 @@
 }
 
 .cardFrontTitle {
-    transform: translateZ(6rem);
+    transform: var(--level-two);
+    color: var(--card-text-color);
 }
 
 .cardBackTitle {
-    transform: translateZ(6rem);
+    transform: var(--level-two);
+    color: var(--card-text-color);
 }
 
 .cardFrontBody, .cardBackBody {
-    transform: translateZ(5rem);
+    transform: var(--level-one);
+}
+
+.cardFrontBody, .cardBackBody p {
+    color: var(--card-text-color);
 }
