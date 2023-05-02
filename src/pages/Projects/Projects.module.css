@@ -50,10 +50,20 @@ p {
 
 .cardFront {
     background-color: #0C2B2B;
+    padding: 20px;
 }
 
 .cardBack {
     transform: rotateY(.5turn);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardBackBorder {
+    border: 1px solid white;
+    width: 200px;
+    height: 250px;
 }
 
 .cardFrontTitle, .cardBackTitle {
