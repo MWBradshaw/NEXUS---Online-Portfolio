@@ -3,12 +3,12 @@
 /* General Styling */
 p {
     font-family: 'Bruno Ace', cursive;
+    font-size: 14px;
 } 
 
 :root {
     --level-one: translateZ(4rem);
     --level-two: translateZ(6rem);
-
     --card-text-color: white;
 }
 
@@ -38,6 +38,11 @@ p {
     transform: rotateY(.5turn);
 }
 
+.cardIconDisplay {
+    display: flex;
+    justify-content: space-between;
+}
+
 .cardFront, .cardBack {
     position: absolute;
     top: 0;
@@ -50,7 +55,7 @@ p {
 
 .cardFront {
     background-color: #0C2B2B;
-    padding: 20px;
+    padding: 0.625rem 1rem;
 }
 
 .cardBack {
@@ -78,4 +83,25 @@ p {
 
 .cardFrontBody, .cardBackBody p {
     color: var(--card-text-color);
+}
+
+.cardFrontTitle, .cardFrontBody {
+    text-align: left;
+}
+
+
+
+/* Image Styling */
+.folderIcon, .githubIcon {
+    transform: var(--level-one);
+}
+-
+.folderIcon {
+    width: 3.4rem;
+    height: 3.1rem;
+}
+
+.githubIcon {
+    width: 1.875rem;
+    height: 1.875rem;
 }

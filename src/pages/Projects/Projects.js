@@ -1,4 +1,6 @@
 import styles from './Projects.module.css';
+import GithubIcon from "../../assets/github-icon.png";
+import FolderIcon from "../../assets/folder-icon.png";
 
 const Projects = () => {
     return (
@@ -8,6 +10,10 @@ const Projects = () => {
                 <div className={styles.card}>
                     <div className={styles.cardContent}>
                         <div className={styles.cardFront}>
+                            <div className={styles.cardIconDisplay}>
+                                <img className={styles.folderIcon} src={FolderIcon} alt="A folder icon"></img>
+                                <img className={styles.githubIcon} src={GithubIcon} alt="An icon for the website Github"></img>
+                            </div>
                             <div className={styles.cardFrontTitle}>
                                 <p>Blockchain Prototype</p>
                             </div>
@@ -32,6 +38,10 @@ const Projects = () => {
                 <div className={styles.card}>
                     <div className={styles.cardContent}>
                         <div className={styles.cardFront}>
+                            <div className={styles.cardIconDisplay}>
+                                <img className={styles.folderIcon} src={FolderIcon} alt="A folder icon"></img>
+                                <img className={styles.githubIcon} src={GithubIcon} alt="An icon for the website Github"></img>
+                            </div>
                             <div className={styles.cardFrontTitle}>
                                 <p>Pomodoro Application</p>
                             </div>
@@ -60,6 +70,10 @@ const Projects = () => {
                 <div className={styles.card}>
                     <div className={styles.cardContent}>
                         <div className={styles.cardFront}>
+                            <div className={styles.cardIconDisplay}>
+                                <img className={styles.folderIcon} src={FolderIcon} alt="A folder icon"></img>
+                                <img className={styles.githubIcon} src={GithubIcon} alt="An icon for the website Github"></img>
+                            </div>
                             <div className={styles.cardFrontTitle}>
                                 <p>NEXUS (Front-End)</p>
                             </div>
@@ -89,6 +103,10 @@ const Projects = () => {
                     <div className={styles.cardContent}>
 
                         <div className={styles.cardFront}>
+                            <div className={styles.cardIconDisplay}>
+                                <img className={styles.folderIcon} src={FolderIcon} alt="A folder icon"></img>
+                                <img className={styles.githubIcon} src={GithubIcon} alt="An icon for the website Github"></img>
+                            </div>
                             <div className={styles.cardFrontTitle}>
                                 <p>AI Chatbot</p>
                             </div>
