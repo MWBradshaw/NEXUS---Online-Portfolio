@@ -18,7 +18,7 @@ const Projects = () => {
                                 <p>Blockchain Prototype</p>
                             </div>
                             <div className={styles.cardFrontBody}>
-                                
+                                <p>An application based on Blockchain technology that was built with JavaScript. It is capable of simulating sha256 hashing and storing a hashed block's information</p>
                             </div>
                         </div>
 
@@ -48,7 +48,7 @@ const Projects = () => {
 
 
                             <div className={styles.cardFrontBody}>
-                               <p>First iteration of my personal website that was built with HTML5, CSS, Bootstrap 5 and JavaScript</p>
+                               <p>An application built to track how long you choose to study for and take breaks. This is based on the Pomodoro Technique andw as built with ReactJS, TypeScript, HTML and CSS</p>
                             </div>
                         </div>
 
@@ -80,7 +80,7 @@ const Projects = () => {
                             
 
                             <div className={styles.cardFrontBody}>
-                                
+                                <p>First iteration of my personal website that was built with HTML5, CSS, Bootstrap 5 and JavaScript</p>
                             </div>
                         </div>
 
@@ -112,7 +112,7 @@ const Projects = () => {
                             </div>
 
                             <div className={styles.cardFrontBody}>
-                                
+                                <p></p>
                             </div>
                         </div>
                         

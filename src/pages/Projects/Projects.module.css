@@ -3,7 +3,7 @@
 /* General Styling */
 p {
     font-family: 'Bruno Ace', cursive;
-    font-size: 14px;
+    font-size: 13.5px;
 } 
 
 :root {
@@ -76,6 +76,9 @@ p {
     color: var(--card-text-color);
 }
 
+.cardBodyText {
+    font-size: 8px;
+}
 
 .cardFrontBody, .cardBackBody {
     transform: var(--level-one);
@@ -93,9 +96,10 @@ p {
 
 /* Image Styling */
 .folderIcon, .githubIcon {
+    transform-style: preserve-3d;
     transform: var(--level-one);
 }
--
+  
 .folderIcon {
     width: 3.4rem;
     height: 3.1rem;
