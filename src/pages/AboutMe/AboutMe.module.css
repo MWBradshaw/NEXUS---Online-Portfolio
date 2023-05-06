@@ -1,16 +1,29 @@
 /* General Styling */
 .aboutMeBody {
+    margin-top: 100px;
+    margin-bottom: 100px;
     display:flex;
     justify-content: center;
+    align-items: start;
 }
 
 .aboutMeTextBody {
     font-size: 20px;
-    width: 50%;
+    width: 525px;
     text-align: left;
+    margin-right: 150px;
+}
+
+.aboutMeTextBody h2 {
+    font-size: 40px;
+}
+
+.aboutMeTextBody p {
+    font-size: 20px;
 }
 
 .headshot {
     float: right;
-    
+    width: 250px;
+    height: 100%;
 }
