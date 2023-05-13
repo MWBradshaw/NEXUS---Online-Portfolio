@@ -6,11 +6,16 @@ const Contact = () => {
                 <div>
                     <form>
                         <label>Your Name:</label>
-                        <input></input>
+                        <input type="text"></input>
                         <label>Email Address</label>
-                        <input></input>
+                        <input type="text"></input>
+                        <textarea placeholder="Your Message"></textarea>
                         <input type="submit" value="Submit"></input>
                     </form>
+                </div>
+
+                <div>
+                    
                 </div>
             </div>
         </div>
