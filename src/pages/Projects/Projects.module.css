@@ -107,3 +107,7 @@ p {
     width: 1.875rem;
     height: 1.875rem;
 }
+
+.cardIconDisplay {
+    transform: var(--level-one)
+}
