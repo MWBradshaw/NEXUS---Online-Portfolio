@@ -66,9 +66,11 @@ p {
 }
 
 .cardBackBorder {
+    transform: var(--level-one);
     border: 1px solid white;
     width: 200px;
     height: 250px;
+    align-items: center;
 }
 
 .cardFrontTitle, .cardBackTitle {
