@@ -24,12 +24,12 @@ const Projects = () => {
 
                         <div className={styles.cardBack}>
                             <div class={styles.cardBackBorder}>
-                            <div className={styles.cardBackTitle}>
-                                    <p>Technologies Used:</p>
-                            </div>
-                            <div class={styles.cardBackBody}>
-                                <p>JavaScript</p>
-                            </div>
+                                <div className={styles.cardBackTitle}>
+                                        <p>Technologies Used:</p>
+                                </div>
+                                <div class={styles.cardBackBody}>
+                                    <p>JavaScript</p>
+                                </div>
                             </div>
                         </div>
                     </div>
