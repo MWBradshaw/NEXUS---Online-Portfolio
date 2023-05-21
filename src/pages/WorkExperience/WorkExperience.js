@@ -5,6 +5,10 @@ const WorkExperience = () => {
         <div>
             <h2>Work Experience</h2>
         </div>
+
+        <div>
+            
+        </div>
     );
 }
 
