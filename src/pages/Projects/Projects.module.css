@@ -60,17 +60,12 @@ p {
 
 .cardBack {
     transform: rotateY(.5turn);
-    display: flex;
+    display: flex-column;
+    border: 1px solid white;
     justify-content: center;
     align-items: center;
-}
-
-.cardBackBorder {
-    transform: var(--level-one);
-    border: 1px solid white;
     width: 200px;
     height: 250px;
-    align-items: center;
 }
 
 .cardFrontTitle, .cardBackTitle {
@@ -88,7 +83,6 @@ p {
 
 .cardFrontTitle, .cardFrontBody {
     text-align: left;
-    content: "";
 }
 
 
