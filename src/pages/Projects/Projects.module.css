@@ -61,11 +61,8 @@ p {
 .cardBack {
     transform: rotateY(.5turn);
     display: flex-column;
-    border: 1px solid white;
     justify-content: center;
     align-items: center;
-    width: 200px;
-    height: 250px;
 }
 
 .cardFrontTitle, .cardBackTitle {
