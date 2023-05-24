@@ -4,16 +4,20 @@ const WorkExperience = () => {
     return (
         <div>
             <div>
-                <h2>Work Experience</h2>
+                <div>
+                    <h3>Relevant Courses</h3>
+                </div>
             </div>
 
             <div>
                 <div>
-                    <div>
-                        <div>
-                            
-                        </div>
-                    </div>
+                    <h3>Technical Skills</h3>
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <h3>Work Experience</h3>
                 </div>
             </div>
         </div>
