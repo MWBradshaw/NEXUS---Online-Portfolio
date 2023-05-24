@@ -7,13 +7,13 @@ const Contact = () => {
                     <form>
                         <div>
                             <label>Your Name:</label>
-                            <input type="text"></input>
+                            <input type="text" placeholder="Enter Your Name"></input>
                             <label>Email Address</label>
-                            <input type="text"></input>
+                            <input type="text" placeholder="Enter Your Email"></input>
                         </div>
 
                         <div>
-                            <textarea placeholder="Your Message"></textarea>
+                            <textarea placeholder="Enter Your Message"></textarea>
                             <input type="submit" value="Submit"></input>
                         </div>
                     </form>
