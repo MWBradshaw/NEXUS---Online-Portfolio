@@ -46,25 +46,79 @@
 }
 
 .skillsBar .bar .html {
+    width: 100%;
+    animation: html 3s;
+}
 
+@keyframes html {
+    0%{
+        width: 0%;
+    }100%{
+        width: 100%;
+    }
 }
 
 .skillsBar .bar .css {
-    
+    width: 100%;
+    animation: css 3s;
+}
+
+@keyframes css {
+    0%{
+        width: 0%;
+    }100%{
+        width: 100%;
+    }
 }
 
 .skillsBar .bar .javascript {
-    
+    width: 100%;
+    animation: javascript 3s;
+}
+
+@keyframes javscript {
+    0%{
+        width: 0%;
+    }100%{
+        width: 100%;
+    }
 }
 
 .skillsBar .bar .react {
-    
+    width: 100%;
+    animation: react 3s;
+}
+
+@keyframes react {
+    0%{
+        width: 0%;
+    }100%{
+        width: 100%;
+    }
 }
 
 .skillsBar .bar .bootstrap {
-    
+    width: 100%;
+    animation: bootstrap 3s;
+}
+
+@keyframes bootstrap {
+    0%{
+        width: 0%;
+    }100%{
+        width: 100%;
+    }
 }
 
 .skillsBar .bar .python {
-    
+    width: 100%;
+    animation: python 3s;
+}
+
+@keyframes python {
+    0%{
+        width: 0%;
+    }100%{
+        width: 100%;
+    }
 }
