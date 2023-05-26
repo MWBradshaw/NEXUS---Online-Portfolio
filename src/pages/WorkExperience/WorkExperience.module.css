@@ -1,117 +1,20 @@
-/* General Styling */
-.skillsHeader {
-    width: 100%;
-    margin-bottom: 70px;
-    display: grid;
-    place-items: center;
-    text-align: center;
+section {
+    height: 100vh;
+    scroll-snap-align: start;
 }
 
-#skillsMainBody {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 50px;
-    grid-row-gap: 20px;
+.container {
+    scroll-snap-type: y;
 }
 
-#skillsMainBody .skillsBar .skillsInfo{
-    display: flex;
-    justify-content: space-between;
-    padding: 0 10px;
+.one {
+    background-color: green;
 }
 
-.skillsBar .bar {
-    width: 100%;
-    height: 10px;
-    position: relative;
-    background-color:#000;
-    border-radius: 25px;
-    margin-top: 5px;
+.two {
+
 }
 
-.skillsBar .bar span {
-    width: 50%;
-    height: 100%;
-    position: absolute;
-    background-color: #e74d06;
-    border-radius: 25px;
-}
+.three {
 
-.skillsBar .bar .html {
-    width: 100%;
-    animation: html 3s;
-}
-
-@keyframes html {
-    0%{
-        width: 0%;
-    }100%{
-        width: 100%;
-    }
-}
-
-.skillsBar .bar .css {
-    width: 100%;
-    animation: css 3s;
-}
-
-@keyframes css {
-    0%{
-        width: 0%;
-    }100%{
-        width: 100%;
-    }
-}
-
-.skillsBar .bar .javascript {
-    width: 100%;
-    animation: javascript 3s;
-}
-
-@keyframes javascript {
-    0%{
-        width: 0%;
-    }100%{
-        width: 100%;
-    }
-}
-
-.skillsBar .bar .react {
-    width: 100%;
-    animation: react 3s;
-}
-
-@keyframes react {
-    0%{
-        width: 0%;
-    }100%{
-        width: 100%;
-    }
-}
-
-.skillsBar .bar .bootstrap {
-    width: 100%;
-    animation: bootstrap 3s;
-}
-
-@keyframes bootstrap {
-    0%{
-        width: 0%;
-    }100%{
-        width: 100%;
-    }
-}
-
-.skillsBar .bar .python {
-    width: 100%;
-    animation: python 3s;
-}
-
-@keyframes python {
-    0%{
-        width: 0%;
-    }100%{
-        width: 100%;
-    }
 }
