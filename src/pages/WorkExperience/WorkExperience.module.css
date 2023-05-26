@@ -1,11 +1,4 @@
 /* General Styling */
-#skillsMainBody {
-    width: 100%;
-    height: auto; 
-    padding: 80px 10%;
-    background-color: #000;
-}
-
 .skillsHeader {
     width: 100%;
     margin-bottom: 70px;
@@ -14,7 +7,7 @@
     text-align: center;
 }
 
-.skillsMainBody {
+#skillsMainBody {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -22,7 +15,7 @@
     grid-row-gap: 20px;
 }
 
-.skillsMainBody .skillsBar .skillsInfo{
+#skillsMainBody .skillsBar .skillsInfo{
     display: flex;
     justify-content: space-between;
     padding: 0 10px;
@@ -41,7 +34,7 @@
     width: 50%;
     height: 100%;
     position: absolute;
-    background-color: "#e74d06";
+    background-color: #e74d06;
     border-radius: 25px;
 }
 
@@ -76,7 +69,7 @@
     animation: javascript 3s;
 }
 
-@keyframes javscript {
+@keyframes javascript {
     0%{
         width: 0%;
     }100%{
