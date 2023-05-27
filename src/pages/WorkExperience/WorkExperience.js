@@ -3,8 +3,8 @@ import styles from './WorkExperience.module.css';
 const WorkExperience = () => {
     return (
         <div className={styles.container}>
-            <section>
-                <div className={styles.one}>
+            <section className={styles.one}>
+                <div>
                     <h3>Relevant Courses</h3>
                 </div>
             </section>
