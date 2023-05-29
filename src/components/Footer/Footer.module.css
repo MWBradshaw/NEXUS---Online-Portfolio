@@ -10,3 +10,8 @@
 .footerBody p {
     color: white;     
 }
+
+.footerIcon {
+    width: 44px;
+    height: 44px;
+}

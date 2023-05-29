@@ -14,13 +14,12 @@ const WorkExperience = () => {
             </section>
 
             <section className={styles.two}>
+                <div className={styles.innerContainer}>
+                    
+                </div>
                 <div className={styles.slideHeader}>
                     <h2>Technical</h2>
                     <h2>Skills</h2>
-                </div>
-
-                <div className={styles.innerContainer}>
-                    
                 </div>
             </section>
                 
