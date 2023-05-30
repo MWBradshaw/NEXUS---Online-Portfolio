@@ -6,9 +6,9 @@ import { faGithub, faInstagram, faLinkedinIn } from '@fortawesome/free-brands-sv
 const Footer = () => {
     return(
         <div className={styles.footerBody}>
-            <FontAwesomeIcon icon={faLinkedinIn}></FontAwesomeIcon>
-            <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-            <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
+            <FontAwesomeIcon style={{ height: 30, width: 30 }} icon={faLinkedinIn}></FontAwesomeIcon>
+            <FontAwesomeIcon style={{ height: 30, width: 30, paddingLeft: 15, paddingRight: 15 }} icon={faInstagram}></FontAwesomeIcon>
+            <FontAwesomeIcon style={{ height: 30, width: 30 }}icon={faGithub}></FontAwesomeIcon>
             <p>matthewbradshaw875@gmail.com</p>
             <p>&copy; 2023 Matthew Bradshaw</p>
         </div>
