@@ -29,8 +29,8 @@ const WorkExperience = () => {
                     <h2>Work</h2>
                     <h2>Experience</h2>
                 </div>
-                <div>
-
+                <div className={styles.innerContainer}>
+                    
                 </div>
             </section>
         </div>
