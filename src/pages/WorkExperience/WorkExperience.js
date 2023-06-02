@@ -8,8 +8,8 @@ const WorkExperience = () => {
                     <h2>Relevant</h2>
                     <h2>Courses</h2>
                 </div>
-                <div>
-
+                <div className={styles.innerContainer}>
+                    
                 </div>
             </section>
 
