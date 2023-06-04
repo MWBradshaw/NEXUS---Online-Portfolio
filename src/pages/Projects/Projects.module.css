@@ -13,7 +13,9 @@ p {
 }
 
 .projectsBody {
-    height: 88.5vh;
+    padding-top: 60px;
+    padding-bottom: 124px;
+    height: 95vh;
 }
 
 .cardDisplay {
