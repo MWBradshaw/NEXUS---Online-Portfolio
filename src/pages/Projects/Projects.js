@@ -4,7 +4,7 @@ import FolderIcon from "../../assets/folder-icon.png";
 
 const Projects = () => {
     return (
-        <div>
+        <div className={styles.projectsBody}>
             <h2>Projects</h2>
             <div className={styles.cardDisplay}>
                 <div className={styles.card}>

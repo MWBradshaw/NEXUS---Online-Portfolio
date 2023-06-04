@@ -3,7 +3,8 @@
     background: #040F0F;
     padding: 12px 0px;
     width: 100%;
-    position: fixed;
+    height: 124px;
+    position: sticky;
     bottom: 0%;
 }
 
