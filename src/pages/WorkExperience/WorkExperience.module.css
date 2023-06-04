@@ -16,22 +16,39 @@ section {
     font-size: 40px;
 }
 
-.slideHeader h2 {
+/* General Styling for Sections */
+
+
+/* First Section */
+.one {
+    background: green;
+    position: relative;
+}
+
+.slideHeader1 h2 {
     padding: 0;
     margin: 0;
     display: flex;
     justify-content: start;
 }
 
-/* General Styling for Sections */
-.innerContainer {
-
+.innerContainer1 {
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+    height: 220px;
+    width: 470px;
+    border: 1px solid white;
+    border-radius: 50px;
 }
 
-/* First Section */
-.one {
-    background: green;
+.innerContainer1Body {
+    top: 30%;
+    left: 10%;
+    position: absolute;
+    text-align: start;
 }
+
 
 /* Second Section */
 .two {
@@ -46,4 +63,11 @@ section {
 /* Third Section */
 .three {
     background: blue;
+}
+
+.slideHeader3 h2 {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: start;
 }
