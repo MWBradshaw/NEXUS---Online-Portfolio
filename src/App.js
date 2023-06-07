@@ -8,6 +8,7 @@ import AboutMe from "./pages/AboutMe/AboutMe.js";
 import Projects from "./pages/Projects/Projects.js";
 import WorkExperience from "./pages/WorkExperience/WorkExperience.js";
 import Contact from "./pages/Contact/Contact";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
 
