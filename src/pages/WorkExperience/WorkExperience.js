@@ -13,31 +13,6 @@ const WorkExperience = () => {
     return (
         <div className={styles.container}>
             <section className={styles.one}>
-           
-            <Carousel>
-                <Carousel.Item>
-                    <img
-                    className="d-block w-100"
-                    src={placeholder}
-                    alt="First slide"
-                    />
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                    className="d-block w-100"
-                    src={placeholder}
-                    alt="Second slide"
-                    />
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                    className="d-block w-100"
-                    src={placeholder}
-                    alt="Third slide"
-                    />
-                </Carousel.Item>
-                </Carousel>
-
                 <div className={styles.innerContainer1}>
                     <div className={styles.innerContainer1Body}>
                         <div className={styles.slideHeader1}>
