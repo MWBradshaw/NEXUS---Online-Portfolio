@@ -1,6 +1,7 @@
 import styles from './WorkExperience.module.css';
 import Carousel from 'react-bootstrap/Carousel';
-import { useState } from 'react';
+// import { useState } from 'react';
+import placeholder from "../../assets/placeholder.jpg";
 
 const WorkExperience = () => {
     // const [index, setIndex] = useState(0);
@@ -12,19 +13,30 @@ const WorkExperience = () => {
     return (
         <div className={styles.container}>
             <section className={styles.one}>
-                {/* <Carousel>
-                    <Carousel.Item>
-                        <img
-                            className="d-block w-100"
-                            src="src/assets/Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg"
-                            alt="First slide"
-                        />
-                    </Carousel.Item>
-
-                    <Carousel.Item>
-                        
-                    </Carousel.Item>
-                </Carousel> */}
+           
+            <Carousel>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src={placeholder}
+                    alt="First slide"
+                    />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src={placeholder}
+                    alt="Second slide"
+                    />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src={placeholder}
+                    alt="Third slide"
+                    />
+                </Carousel.Item>
+                </Carousel>
 
                 <div className={styles.innerContainer1}>
                     <div className={styles.innerContainer1Body}>
@@ -42,17 +54,15 @@ const WorkExperience = () => {
                 <div className={styles.innerContainer2}>
                     
                 </div>
-                <div className={styles.slideHeader}>
-                    <h2>Technical</h2>
-                    <h2>Skills</h2>
+                <div className={styles.slideHeader2}>
+                    <h2>Technical Skills</h2>
                 </div>
             </section>
                 
 
             <section className={styles.three}>
                 <div className={styles.slideHeader3}>
-                    <h2>Work</h2>
-                    <h2>Experience</h2>
+                    <h2>Work Experience</h2>
                 </div>
                 <div className={styles.innerContainer}>
                     
