@@ -1,6 +1,8 @@
+import styles from "./Contact.module.css";
+
 const Contact = () => {
     return (
-        <div>
+        <div className={styles.contactBody}>
             <h2>Contact Me</h2>
             <div>
                 <div>
