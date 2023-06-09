@@ -14,5 +14,7 @@
 
 .footerIcon {
     text-decoration: none;
+    color: inherit;
 }
+
 
