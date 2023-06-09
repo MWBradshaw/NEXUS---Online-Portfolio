@@ -1,7 +1,7 @@
 import styles from './WorkExperience.module.css';
-import Carousel from 'react-bootstrap/Carousel';
+// import Carousel from 'react-bootstrap/Carousel';
 // import { useState } from 'react';
-import placeholder from "../../assets/placeholder.jpg";
+// import placeholder from "../../assets/placeholder.jpg";
 
 const WorkExperience = () => {
     // const [index, setIndex] = useState(0);
