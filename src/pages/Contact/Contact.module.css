@@ -2,5 +2,32 @@
 .contactBody {
     padding-top: 60px;
     padding-bottom: 124px;
+    padding-left: 100px;
+    padding-right: 100px;
     height: 95vh;
+}
+
+/* Form Styling */
+.formBody {
+    padding-top: 40px;
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+    width: 775px;
+}
+
+.formBody label {
+    padding-right: 10px;
+}
+
+.formBody div input:first-of-type {
+    margin-right: 20px;
+}
+
+.formBody textarea {
+    margin: 20px 0px;
+}
+
+.formBody text-area {
+    width: 
 }
