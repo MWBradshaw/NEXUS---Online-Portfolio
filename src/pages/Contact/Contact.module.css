@@ -5,6 +5,7 @@
     padding-left: 100px;
     padding-right: 100px;
     height: 95vh;
+    text-align: center;
 }
 
 /* Form Styling */
@@ -13,7 +14,9 @@
     display: flex;
     text-align: start;
     flex-direction: column;
+    justify-content: center;
     width: 775px;
+    margin: 0 auto;
 }
 
 .formBody label {
@@ -28,6 +31,6 @@
     margin: 20px 0px;
 }
 
-.formBody text-area {
-    width: 
-}
+/* .formBody input[type=submit] {
+    border-radius: 10px;
+} */
