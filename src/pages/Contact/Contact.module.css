@@ -29,6 +29,7 @@
 
 .formBody textarea {
     margin: 20px 0px;
+    resize: none;
 }
 
 /* .formBody input[type=submit] {
