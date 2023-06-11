@@ -8,6 +8,9 @@ const Contact = () => {
                 <div>
                     <form className={styles.formBody}>
                         <div>
+                            <div className={styles.contactSubHeader}>
+                                <h4>Interested in working together? </h4>
+                            </div>
                             <label>Your Name</label>
                             <input type="text" placeholder="Enter Your Name"></input>
                             <label>Email Address</label>
