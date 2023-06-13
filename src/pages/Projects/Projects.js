@@ -46,7 +46,7 @@ const Projects = () => {
 
 
                             <div className={styles.cardFrontBody}>
-                               <p>An application built to track how long you choose to study for and take breaks. This is based on the Pomodoro Technique andw as built with ReactJS, TypeScript, HTML and CSS</p>
+                               <p>An application built to track how long you choose to study for and take breaks. This is based on the Pomodoro Technique and was built with ReactJS, TypeScript, HTML and CSS</p>
                             </div>
                         </div>
 
