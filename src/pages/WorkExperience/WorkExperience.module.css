@@ -10,6 +10,8 @@ section {
 .container {
     height: 100vh;
     width: 100%; 
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
 }
 
 .slideHeader {
@@ -17,7 +19,9 @@ section {
 }
 
 /* General Styling for Sections */
-
+.one, .two, .three {
+    scroll-snap-align: center;
+}
 
 /* First Section */
 .one {
