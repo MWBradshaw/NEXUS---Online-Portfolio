@@ -31,7 +31,7 @@ section {
 
 .one .slideHeader1 h2 {
     padding: 0;
-    margin: 0;
+    margin: 0px 0px 10px 0px;
     display: flex;
     justify-content: start;
 }
@@ -59,8 +59,8 @@ section {
     text-align: start;
 }
 
-.innerContainer1Body p {
-    
+.innerContainer1Body > p {
+    margin-bottom: 0px;
 }
 
 /* Second Section */
