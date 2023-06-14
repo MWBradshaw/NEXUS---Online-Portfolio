@@ -10,6 +10,15 @@ const WorkExperience = () => {
     //     setIndex(selectedIndex);
     // };
 
+    const relevantCoursesList = [['Fundamentals of Programming', 'A'], 
+    ['Discrete Mathematics', 'A'], 
+    ['Introduction to Object Oriented Programming', 'A'], 
+    ['Calculus', 'B'], 
+    ['Data Structures & Algorithms', 'B'], 
+    ['Computer Organization & Architecture', 'A'], 
+    ['Calculus II', 'A'],
+     ['Computer Systems', 'A']]
+
     return (
         <div className={styles.container}>
             <section className={styles.one}>
