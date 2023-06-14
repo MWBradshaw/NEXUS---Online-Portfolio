@@ -10,7 +10,7 @@ const WorkExperience = () => {
     //     setIndex(selectedIndex);
     // };
 
-    const relevantCoursesList = [['Fundamentals of Programming', 'A'], 
+    const relevantCourseList = [['Fundamentals of Programming', 'A'], 
     ['Discrete Mathematics', 'A'], 
     ['Introduction to Object Oriented Programming', 'A'], 
     ['Calculus', 'B'], 
@@ -22,13 +22,17 @@ const WorkExperience = () => {
     return (
         <div className={styles.container}>
             <section className={styles.one}>
+                
+
+
+
                 <div className={styles.innerContainer1}>
                     <div className={styles.innerContainer1Body}>
                         <div className={styles.slideHeader1}>
                             <h2>Relevant Courses</h2>
                         </div>
-                        <p>Course Name:</p>
-                        <p>Grade:</p>
+                        <p>Course Name: {relevantCourseList[0][0]}</p>
+                        <p>Grade: {relevantCourseList[0][1]}</p>
                     </div>
                 </div>
             </section>
