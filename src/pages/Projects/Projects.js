@@ -106,7 +106,7 @@ const Projects = () => {
                             </div>
 
                             <div className={styles.cardFrontBody}>
-                                <p></p>
+                                <p>An intelligent AI chatbot capable of responding to different inputted phrases. This was built using neural networks and natural language processing in Python</p>
                             </div>
                         </div>
                         
