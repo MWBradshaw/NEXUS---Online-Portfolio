@@ -1,5 +1,6 @@
 import styles from './WorkExperience.module.css';
-// import Carousel from 'react-bootstrap/Carousel';
+import Slider from '../../components/Slider/Slider';
+import slides from '../../slides.json'
 // import { useState } from 'react';
 // import placeholder from "../../assets/placeholder.jpg";
 
@@ -22,9 +23,7 @@ const WorkExperience = () => {
     return (
         <div className={styles.container}>
             <section className={styles.one}>
-                
-
-
+                <Slider slides={slides}/>
 
                 <div className={styles.innerContainer1}>
                     <div className={styles.innerContainer1Body}>
