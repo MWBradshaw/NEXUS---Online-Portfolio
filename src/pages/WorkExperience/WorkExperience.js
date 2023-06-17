@@ -24,16 +24,6 @@ const WorkExperience = () => {
         <div className={styles.container}>
             <section className={styles.one}>
                 <Slider slides={slides}/>
-
-                <div className={styles.innerContainer1}>
-                    <div className={styles.innerContainer1Body}>
-                        <div className={styles.slideHeader1}>
-                            <h2>Relevant Courses</h2>
-                        </div>
-                        <p>Course Name: {relevantCourseList[0][0]}</p>
-                        <p>Grade: {relevantCourseList[0][1]}</p>
-                    </div>
-                </div>
             </section>
 
             
