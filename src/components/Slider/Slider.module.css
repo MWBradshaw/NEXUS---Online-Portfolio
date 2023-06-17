@@ -3,3 +3,24 @@
     height: 100vh;
     width: 100vw;
 }
+
+.innerContainer1 {
+    position: absolute;
+    bottom: 20%;
+    left: 15%;
+    height: 220px;
+    width: 470px;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+.innerContainer1Body {
+    top: 30%;
+    left: 10%;
+    position: absolute;
+    text-align: start;
+}
+
+.innerContainer1Body > p {
+    margin-bottom: 0px;
+}
