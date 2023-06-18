@@ -4,7 +4,7 @@
     width: 100vw;
 }
 
-.innerContainer1 {
+.container {
     position: absolute;
     bottom: 20%;
     left: 15%;
@@ -14,13 +14,13 @@
     border-radius: 50px;
 }
 
-.innerContainer1Body {
+.containerBody {
     top: 30%;
     left: 10%;
     position: absolute;
     text-align: start;
 }
 
-.innerContainer1Body > p {
+.containerBody > p {
     margin-bottom: 0px;
 }
