@@ -20,7 +20,7 @@ function Slider({ slides }) {
                 <img
                 className={styles.carouselImage}
                 src={slide.image}
-                alt="First slide"
+                alt="Carousel Slide"
                 />
 
                 <div className={styles.container}>
