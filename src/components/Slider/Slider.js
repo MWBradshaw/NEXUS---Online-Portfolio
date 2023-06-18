@@ -4,8 +4,8 @@ import styles from './Slider.module.css';
 function Slider({ slides }) {
   return (
     <>
-    <div className={styles.innerContainer1}>
-        <div className={styles.innerContainer1Body}>
+    <div className={styles.container}>
+        <div className={styles.containerBody}>
             <div className={styles.slideHeader1}>
                 <h2>Relevant Courses</h2>
             </div>
@@ -23,9 +23,9 @@ function Slider({ slides }) {
                 alt="First slide"
                 />
 
-                <div className={styles.innerContainer1}>
-                        <div className={styles.innerContainer1Body}>
-                            <div className={styles.slideHeader1}>
+                <div className={styles.container}>
+                        <div className={styles.containerBody}>
+                            <div className={styles.slideHeader}>
                                 <h2>Relevant Courses</h2>
                             </div>
                             <p>Course Name: {slide.relevantCourse}</p>
