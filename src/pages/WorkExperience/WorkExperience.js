@@ -29,7 +29,16 @@ const WorkExperience = () => {
             
             <section className={styles.two}>
                 <div className={styles.innerContainer2}>
-                    
+                    <p>Java</p>
+                    <p>Python</p>
+                    <p>ReactJS</p>
+                    <p>Typescript</p>
+                    <p>Node.js</p>
+                    <p>HTML5</p>
+                    <p>CSS3</p>
+                    <p>JavaScript</p>
+                    <p>Bootstrap 5</p>
+                    <p>Agile / Scrum</p>
                 </div>
                 <div className={styles.slideHeader2}>
                     <h2>Technical Skills</h2>
