@@ -6,7 +6,9 @@ const Projects = () => {
     return (
         <div className={styles.projectsBody}>
             <h2>Projects</h2>
+            
             <div className={styles.cardDisplay}>
+
                 <div className={styles.card}>
                     <div className={styles.cardContent}>
                         <div className={styles.cardFront}>
